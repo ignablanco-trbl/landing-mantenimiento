@@ -141,27 +141,12 @@ ul { list-style: none; }
     margin-bottom: 15px;
 }
 
-/* --- FORMULARIO --- */
-.contact-section { background: var(--light); }
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background: var(--white);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
 
-.form-group { margin-bottom: 15px; }
-.form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* --- CONTACTO SIMPLIFICADO --- */
+.contact-section { 
+    background: var(--light); 
+    padding: 80px 20px; /* Un poco más de aire arriba y abajo */
 }
-
-.btn-block { width: 100%; border: none; cursor: pointer; font-size: 1rem; }
 
 /* --- FOOTER --- */
 footer {
