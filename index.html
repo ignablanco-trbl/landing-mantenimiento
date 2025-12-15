@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento Omar | Soluciones para el Hogar</title>
+    <meta name="description" content="Servicios de mantenimiento general, plomería, electricidad y reparaciones en San Miguel.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Mantenimiento Omar</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Soluciones Rápidas para tu Hogar</h1>
+            <p>Electricidad, Plomería y Mantenimiento General en San Miguel.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Pedir Presupuesto</a>
+                <a href="https://wa.me/5491100000000" class="btn btn-whatsapp" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Enviar WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="section-title">Mis Servicios</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <i class="fa-solid fa-bolt icon"></i>
+                    <h3>Electricidad</h3>
+                    <p>Instalaciones, reparaciones de cortos, cambio de tomas y luminarias.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-faucet icon"></i>
+                    <h3>Plomería</h3>
+                    <p>Destapaciones, reparación de pérdidas, grifería y tanques.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-paint-roller icon"></i>
+                    <h3>Pintura</h3>
+                    <p>Pintura interior y exterior, impermeabilización de techos.</p>
+                </div>
+                 <div class="card">
+                    <i class="fa-solid fa-hammer icon"></i>
+                    <h3>Reparaciones Generales</h3>
+                    <p>Arreglos varios del hogar, colocación de soportes, etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Consultá sin cargo</h2>
+            <p class="text-center">Dejanos tu mensaje y te respondemos en breve.</p>
+            
+            <form name="contacto-omar" method="POST" data-netlify="true" class="contact-form">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label>Teléfono / WhatsApp</label>
+                    <input type="tel" name="telefono" required placeholder="Para contactarte">
+                </div>
+                <div class="form-group">
+                    <label>¿Qué necesitas?</label>
+                    <textarea name="mensaje" rows="4" required placeholder="Contanos el problema..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar Consulta</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mantenimiento Omar. San Miguel, Bs. As.</p>
+    </footer>
+
+</body>
+</html>
