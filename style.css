@@ -11,7 +11,7 @@
 /* --- RESET BÁSICO --- */
 
 
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -71,10 +71,11 @@ ul { list-style: none; }
 /* --- HERO (PORTADA) --- */
 .hero {
     height: 80vh;
-    background-color: var(--primary);
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('imgs/fondo.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: var(--primary); 
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('imgs/fondo.jpg');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
